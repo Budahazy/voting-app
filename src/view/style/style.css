@@ -1,0 +1,32 @@
+.question-box {
+    text-align: center;
+    margin: 50px;
+    border: 5px solid lightseagreen ;
+    padding: 10px;
+}
+
+.votes {
+    margin: 0 auto;
+    display: table;
+}
+
+.upvotes {
+    padding-right: 30px;
+}
+
+.upvotes:before {
+    font-weight: bold;
+    content: "↖";
+    color: green;
+}
+
+.downvotes:before {
+    font-weight: bold;
+    content: "↘";
+    color: red;
+}
+
+.downvotes, .upvotes {
+    text-align: center;
+    display: table-cell;
+}
